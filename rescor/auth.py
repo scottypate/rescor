@@ -44,6 +44,3 @@ class Auth:
 
         except:
             print(auth_response.status_code, auth_response.text)
-
-
-print(Auth().main())
